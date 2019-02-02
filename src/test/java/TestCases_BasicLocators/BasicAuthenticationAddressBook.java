@@ -9,7 +9,7 @@ public class BasicAuthenticationAddressBook {
 
 	
 	public static void main(String[] args) throws InterruptedException {
-		
+		//practice how to create pull push project in eclipse
 		System.setProperty("/webdriver.chrome.driver","Users/ramile/selenium dependencies/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://a.testaddressbook.com/sign_in");
